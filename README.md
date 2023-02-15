@@ -1,4 +1,4 @@
-# Database and Web Applications Laboratory - LBAW 2022/2023
+# Database and Web Applications Laboratory - LBAW 2022/2023 - FEUP
 
 ## About Fashion
 
