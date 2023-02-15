@@ -1,0 +1,135 @@
+#content {
+    width: auto;
+    margin: 0 auto;
+}
+
+div#myTabContent.tab-content {
+    padding: 2em;
+}
+
+.list-group {
+    flex-basis: auto;
+    justify-content:space-around;
+    padding-bottom: 1em;
+}
+#profile-tab {
+    padding: 1em 2em 0em 2em;
+}
+
+#personalInfo{
+    display: flex;
+}
+#personalInfo ul.list-group{
+    margin: auto 0;
+    width: 35em;
+}
+#personalInfo div.card.mb-3{
+    margin-left: 1em;
+}
+
+.cards_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards_flex div.card.border-primary.mb-3{
+    width: 25em;
+    margin-right: 1em;
+}
+
+#edit_form{
+    padding: 2em;
+    max-width: 50em;
+}
+
+#order_details{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 2em 0em 2em;
+}
+
+#order_details div.card.mb-3{
+    width: 25em;
+    margin-right: 1em;
+}
+
+#order_page h2{
+    padding-top: 0.5em;
+    padding-left: 0.8em;
+}
+
+#total{
+    padding: 1em 2em 0em 2em;
+    max-width: 29em;
+}
+
+.bottom_buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom_buttons a{
+    margin-right: 1em;
+}
+
+.add_item{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.profile-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+#edit_form .modal-footer{
+    padding-top: 1em;
+}
+
+#edit_form{
+    margin: 0 auto;
+}
+
+#information{
+    margin-left: 8em;
+}
+
+.profile-flex #profile-tab{
+    margin-top: 1.5em;
+}
+
+.evaluation {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.evaluation:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.evaluation:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.evaluation:not(:checked) > label:before {
+    content: '★ ';
+}
+.evaluation > input:checked ~ label {
+    color: #ffc700;    
+}
+.evaluation:not(:checked) > label:hover,
+.evaluation:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.evaluation > input:checked + label:hover,
+.evaluation > input:checked + label:hover ~ label,
+.evaluation > input:checked ~ label:hover,
+.evaluation > input:checked ~ label:hover ~ label,
+.evaluation > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
