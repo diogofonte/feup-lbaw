@@ -41,3 +41,5 @@ root@2804d54698c0:/# tail -f /var/log/nginx/access.log   # follow the accesses
 ---
 
 Project Final Grade: 19
+
+Alexandre Correia - up202007042@edu.fe.up.pt <br> Ana Sofia Costa - up202007602@edu.fe.up.pt <br> Daniel Rodrigues - up202006562@edu.fe.up.pt <br> Diogo Fonte - up202004175@edu.fe.up.pt
